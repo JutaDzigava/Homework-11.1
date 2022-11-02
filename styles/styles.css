@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 30px;
+    background-color: #d4d4d4;
+}
+
+header ul{
+    width: 600px;
+}
+
+header ul a{
+    padding: 5px 10px;
+    color: #000000;
+}
+
+.parolebicontainer{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.parolebicontainer input, .parolebicontainer p{
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    border-radius: 1px;
+}
+.parolebicontainer p:last-child{
+    border-bottom: none;
+}
+
+.parolebicontainer p:nth-child(3){
+    text-align: center;
+    border: 2px solid #000000;
+}
+.parolebicontainer p:nth-child(3):hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
